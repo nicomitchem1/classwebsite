@@ -1,0 +1,20 @@
+div{
+    width: 500px;
+    height: 400px;
+    background-color: red;
+}
+p{
+    color: blue;
+}
+
+.blue-paragraph{
+    color: green
+}
+
+#unique-pink-paragraph {
+    color: pink;
+}
+
+.another-class{
+    color: brown;
+}

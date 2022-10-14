@@ -1,0 +1,315 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+@keyframes rotation-animation {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(180deg);
+    }
+}
+
+.center1 {
+  display: block;
+  margin-left: 700px;
+  margin-right: auto;
+  width: 75%;
+} 
+
+.box1 {
+    height: 150px;
+    width: 500px;
+/*    border-color: orange;
+    border-width: thick;*/
+    background-color: lightblue;
+    margin: auto;
+    width: 50%;
+    border: 10px #0064d2;
+    padding: 10px;
+    text-align: center 
+    font-size: 20px;
+    /*text-decoration: underline;*/
+    text-align: center;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+    font-weight: 100;
+}
+.shoeimages {
+    padding-top: 50px;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+}
+
+.red {
+  background-color: #e53238;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%;
+  width: 50px;
+  padding: 35px;
+}
+
+.blue {
+  background-color: #0064d2;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%;
+  padding: 35px;
+  padding-top: 100px;
+}
+
+.yellow {
+  background-color: #f5af02;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%; 
+  padding: 35px;
+
+}
+
+.green {
+  background-color: #86b817;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%;
+  padding: 60px;
+}
+
+a{  
+    display: inline-block;
+    width: auto;
+    height: auto;
+    transform-origin: 50%;
+    animation-name: rotation-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+red {
+  background-color: #e53238;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%;
+  width: 50px;
+  padding: 35px;
+}
+
+.blue {
+  background-color: #0064d2;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%;
+  padding: 35px;
+  padding-top: 100px;
+}
+
+.yellow {
+  background-color: #f5af02;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%; 
+  padding: 35px;
+
+}
+
+.green {
+  background-color: #86b817;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%;
+  padding: 60px;
+}
+
+a{  
+    display: inline-block;
+    width: auto;
+    height: auto;
+    transform-origin: 50%;
+    animation-name: rotation-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+red {
+  background-color: #e53238;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%;
+  width: 50px;
+  padding: 35px;
+}
+
+.blue {
+  background-color: #0064d2;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%;
+  padding: 35px;
+  padding-top: 100px;
+}
+
+.yellow {
+  background-color: #f5af02;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%; 
+  padding: 35px;
+
+}
+
+.green {
+  background-color: #86b817;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%;
+  padding: 60px;
+}
+
+a{  
+    display: inline-block;
+    width: auto;
+    height: auto;
+    transform-origin: 50%;
+    animation-name: rotation-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.red {
+  background-color: #e53238;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%;
+  width: 50px;
+  padding: 35px;
+  position: relative;
+  top:-5px;    
+}
+
+.blue {
+  background-color: #0064d2;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%;
+  padding: 35px;
+  padding-top: 100px;
+}
+
+.yellow {
+  background-color: #f5af02;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%; 
+  padding: 35px;
+
+}
+
+.green {
+  background-color: #86b817;
+  border: none;
+  padding: 32px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  border-radius: 50%;
+  padding: 60px;
+}
+
+a{  
+    display: inline-block;
+    width: auto;
+    height: auto;
+    transform-origin: 50%;
+    animation-name: rotation-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+/*.a {
+  <div style="position:absolute; left:-500px; top:30px;">   
+}*/

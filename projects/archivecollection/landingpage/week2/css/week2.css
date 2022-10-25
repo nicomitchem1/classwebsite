@@ -19,7 +19,7 @@
 } 
 
 .box1 {
-    height: 150px;
+    height: auto;
     width: 500px;
 /*    border-color: orange;
     border-width: thick;*/
@@ -27,11 +27,10 @@
     margin: auto;
     width: 50%;
     border: 10px #0064d2;
-    padding: 10px;
-    text-align: center 
+    padding: 10px; 
     font-size: 20px;
     /*text-decoration: underline;*/
-    text-align: center;
+    text-align: left;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
     font-weight: 100;
 }

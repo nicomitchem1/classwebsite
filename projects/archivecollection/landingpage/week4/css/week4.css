@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/*@keyframes rotation-animation {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(180deg);
+    }
+}*/
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+#box {
+    height: 150px;
+    width: 500px;
+/*    border-color: orange;
+    border-width: thick;*/
+    background-color: lightgray;
+ /*   margin: auto;*/
+    width: 50%;
+    border: 10px #0064d2;
+    padding: 10px;
+    text-align: left
+    font-size: 20px;
+    /*text-decoration: underline;*/
+    text-align: left;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+    font-weight: 100;
+}
+#title {
+    font-size: 30px;
+  /*  text-decoration: underline overline;*/
+    font-weight: 100;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+    padding-bottom: 10px;
+
+}
+
+#logo2 {
+    padding-top: 40px;
+    padding-left: 190px;
+}
+
+
+#box2 {
+    height: 100px;
+    width: 500px;
+/*    border-color: orange;
+    border-width: thick;*/
+    background-color: lightgray;
+ /*   margin: auto;*/
+    width: 50%;
+    border: 10px #0064d2;
+    padding: 10px;
+    text-align: left
+    font-size: 20px;
+    /*text-decoration: underline;*/
+    text-align: left;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+    font-weight: 100;
+}
+#clothing2 {
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+#clothing1 {
+    padding-left: 20px;
+}
+#clothing4 {
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+#clothing3 {
+    padding-left: 200px;
+}
+
+a{  
+  animation-name: spin;
+  animation-duration: 3sec;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+

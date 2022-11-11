@@ -53,19 +53,19 @@
     bottom: 660px;
 }
 .box5{
-    height: 185px;
+    height: auto;
     width: 740px;
     background-color: darkgoldenrod;
     background-color: linear-gradient(to right,#darkgoldenrod,#bbbbbb,#888888);
     border: 5px solid darkgoldenrod;
-    border-radius: 10%;
+    border-radius: 50%;
     font-size: 17px;
     /*text-decoration: underline;*/
     text-align: left;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
     font-weight: 90;
     position: relative;
-    left: 240px;
+    left: 200px;
     bottom: 625px;
     text-align: center;
     padding: 20px;

@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+@keyframes rotation-animation {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+#title{
+    font-size: 50px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+    position: relative;
+    left: 45px;
+}
+
+
+#week1{
+  background-color: #E6E6FA; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  left: 180px;
+   top: 60px;
+  border-radius: 50%;
+
+
+}
+
+#week2{
+  background-color: #D8BFD8; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  left:  180px;
+  top: 80px;
+  border-radius: 50%;
+
+}
+
+#week3{
+  background-color: #DDA0DD; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  left:  180px;
+  top: 100px;
+  border-radius: 50%;
+
+}
+
+#week4{
+  background-color: #EE82EE; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  left:  180px;
+  top: 120px;
+ border-radius: 50%;
+
+}
+
+#week5{
+  background-color: #EE82EE; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  left:  180px;
+  top: 140px;
+ border-radius: 50%;
+
+}
+
+#week6{
+  background-color: #4B0082; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  left:  180px;
+  top: 160px;
+ border-radius: 50%;
+
+}
+
+/*Buttons*/
+
+#week1{  
+    display: inline-block;
+    width: auto;
+    height: auto;
+    transform-origin: 50%;
+    animation-name: rotation-animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: .4s;
+    
+}
+
+#week2{  
+    display: inline-block;
+    width: auto;
+    height: auto;
+    transform-origin: 50%;
+    animation-name: rotation-animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: .5s;
+}
+
+#week3{  
+    display: inline-block;
+    width: auto;
+    height: auto;
+    transform-origin: 50%;
+    animation-name: rotation-animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: .6s;
+}
+
+#week4{  
+    display: inline-block;
+    width: auto;
+    height: auto;
+    transform-origin: 50%;
+    animation-name: rotation-animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: .7s;
+}
+
+#week5{  
+    display: inline-block;
+    width: auto;
+    height: auto;
+    transform-origin: 50%;
+    animation-name: rotation-animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: .8s;
+}
+
+#week6{  
+    display: inline-block;
+    width: auto;
+    height: auto;
+    transform-origin: 50%;
+    animation-name: rotation-animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: .9s;
+}
+
+

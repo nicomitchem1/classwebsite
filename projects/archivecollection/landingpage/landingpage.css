@@ -17,7 +17,7 @@
 
 
 #week1{
-  background-color: #E6E6FA; 
+  background-color: #eaebec; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -34,7 +34,7 @@
 }
 
 #week2{
-  background-color: #D8BFD8; 
+  background-color: #d7d8da; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -50,7 +50,7 @@
 }
 
 #week3{
-  background-color: #DDA0DD; 
+  background-color: #bcbec0; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -66,7 +66,7 @@
 }
 
 #week4{
-  background-color: #EE82EE; 
+  background-color: #a0a3a5; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -82,7 +82,7 @@
 }
 
 #week5{
-  background-color: #EE82EE; 
+  background-color: #86888a; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -98,7 +98,7 @@
 }
 
 #week6{
-  background-color: #4B0082; 
+  background-color: #6d6e71; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -113,6 +113,21 @@
 
 }
 
+#week7{
+  background-color: #646568; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  left:  180px;
+  top: 180px;
+ border-radius: 50%;
+
+}
 /*Buttons*/
 
 #week1{  
@@ -180,6 +195,17 @@
     animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-delay: .9s;
+}
+
+#week7{  
+    display: inline-block;
+    width: auto;
+    height: auto;
+    transform-origin: 50%;
+    animation-name: rotation-animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.0s;
 }
 
 

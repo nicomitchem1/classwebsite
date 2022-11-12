@@ -18,9 +18,9 @@
     }
 }
 
-#box {
-    height: 150px;
-    width: 500px;
+#box1 {
+    height:auto;
+    width: 550px;
 /*    border-color: orange;
     border-width: thick;*/
     background-color: lightgray;

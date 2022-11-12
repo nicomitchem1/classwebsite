@@ -1,0 +1,43 @@
+.box1 {
+    width: 250px;
+    height:250px;
+    margin: 10px auto;
+    position: relative;
+    right: 470px;
+}
+
+.box2{
+  width: 600px;
+  height:auto;
+/*  border: 10px solid #8A9A5B ;*/
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  background-color: #B2AC88;
+  position: relative;
+  top: 60px;
+  left: 50px;
+  border-radius: 50%;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  font-weight: 90;
+  font-size: 12px;
+}
+
+.box3 {
+    width: 250px;
+    height:250px;
+    margin: 10px auto;
+    position: relative;
+    right: 500px;
+    top: 100px;
+}
+
+
+.box4 {
+    width: 250px;
+    height:250px;
+    margin: 10px auto;
+    position: relative;
+    right: 500px;
+    top: 200px;
+}

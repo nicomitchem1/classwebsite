@@ -28,7 +28,7 @@
     height:250px;
     margin: 10px auto;
     position: relative;
-    right: 500px;
+    right: 525px;
     top: 100px;
 }
 
@@ -38,6 +38,23 @@
     height:250px;
     margin: 10px auto;
     position: relative;
-    right: 500px;
+    right: 480px;
     top: 200px;
+}
+
+.box5{
+  width: 600px;
+  height:auto;
+/*  border: 10px solid #8A9A5B ;*/
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  background-color: #B2AC88;
+  position: relative;
+  top: 180px;
+  left: 50px;
+  border-radius: 50%;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
+  font-weight: 90;
+  font-size: 12px;
 }
